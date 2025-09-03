@@ -54,19 +54,23 @@ The goal of this project is to demonstrate:
 
 ## 📸 Screenshots
 1. **pfSense WAN interface configuration**
-![Network Topology](diagram.png)(showing IPs, RFC1918 unchecked)  
-2. **pfSense LAN interface configuration**
-![Network Topology](diagram.png)  
-3. **Firewall Rules (WAN + LAN)**
-![Network Topology](diagram.png)
-4. **Static Route configuration page**
-![Network Topology](diagram.png)
+![Alpha-WAN1](screenshots/Alpha-wan1.png)
+![Alpha-WAN2](screenshots/Alpha-wan2.png)
+![beta-WAN1](screenshots/beta-wan1.png)
+![beta-WAN2](screenshots/beta-wan2.png)
+3. **pfSense LAN interface configuration**
+![Alpha-WAN1](screenshots/Alpha-lan1.png)
+![Alpha-WAN2](screenshots/Alpha-lan2.png)
+![beta-WAN1](screenshots/beta-lan1.png)
+![beta-WAN2](screenshots/beta-lan2.png) 
+4. **Firewall Rules (WAN + LAN)**
+![Alpha-firewall](screenshots/alpha-firewall-ipsec.png)
+![beta-WAN1](screenshots/beta-firewall-ipsec.png)
 5. **Diagnostics → Ping results**
-![Network Topology](diagram.png)(showing successful cross-site pings)  
-6. **ARP table** (showing learned MACs across WAN)
-![Network Topology](diagram.png)
-7. **Packet capture snippet**
-![Network Topology](diagram.png)proving ICMP flow  
+![Alpha-ping](screenshots/alpha-ping.png)
+![Alpha-ping](screenshots/ping-beta.png)
+7. **ARP table** (showing learned MACs across WAN)
+![Alpha-ping](screenshots/ARP-table.png)
 
 ## ✅ Results
 - Both AlphaCorp and BetaCorp LANs can communicate across the pfSense WAN links.  
