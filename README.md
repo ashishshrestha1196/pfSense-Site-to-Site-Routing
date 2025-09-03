@@ -8,7 +8,7 @@ The goal of this project is to demonstrate:
 - End-to-end connectivity testing between LAN clients
 
 ## Topology
-![Network Topology](diagram.png)
+![Network Topology](screenshots/diagram.png)
 
 ### Details:
 - **AlphaCorp LAN**: `192.168.1.0/24`  
